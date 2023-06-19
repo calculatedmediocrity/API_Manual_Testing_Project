@@ -7,7 +7,7 @@
 [API Testing Checklist - Google Sheets](https://docs.google.com/spreadsheets/d/1p0yYjdk12BrvwguB1IXjkT76EPcaQK8QZqVwUTc5-W4/edit?usp=sharing "API Testing Checklist")
 
 ### Постановка задачи:
-1. Проанализировать требования к новой функциональности бэкенда Яндекс.Прилавка и изучить документацию к API в Apidoc.
+1. Проанализировать требования к новой функциональности бэкенда Яндекс.Прилавка и изучить документацию к API в Apidoc. [Требования к бэкенду.](https://praktikum.notion.site/8c91f759cb834ef2aa23db9d803a6373 "Требования к бэкенду в Notion")
 2. Спроектировать тесты в виде чек-листа, чтобы покрыть следующие функциональности:
 - Работа с наборами: 
 
