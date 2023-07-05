@@ -10,7 +10,7 @@
 
 3) Результат выполнения тестов - [Kits.postman_test_run.json](https://github.com/calculatedmediocrity/API_Manual_Testing_Project/blob/main/Kits.postman_test_run.json "test_run")
 
-4) Бег-репорты https://prilavok.youtrack.cloud/issues
+4) Баг-репорты https://prilavok.youtrack.cloud/issues
 
 ## Постановка задачи:
 1. Проанализировать требования к новой функциональности бэкенда Яндекс.Прилавка и изучить документацию к API в Apidoc. 
