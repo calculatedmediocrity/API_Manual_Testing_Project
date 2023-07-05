@@ -1,0 +1,1063 @@
+{
+	"id": "fbb011de-e528-4266-bd91-2ecaf6ef66d1",
+	"name": "Kits",
+	"timestamp": "2023-07-05T09:28:40.484Z",
+	"collection_id": "23556918-3b25d819-19c6-4be5-a3e6-7061a24def83",
+	"folder_id": 0,
+	"environment_id": "23556918-a15750bd-6614-4cda-8c29-19328be3252d",
+	"totalPass": 36,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2023-07-05T09:28:34.756Z",
+	"totalFail": 25,
+	"results": [
+		{
+			"id": "d9ec69bc-ca04-4899-856e-ffcbb76346ab",
+			"name": "Create 7th kit",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits?cardId=1",
+			"time": 199,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response structure": true,
+				"Response values": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response values": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				199
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response structure": true,
+					"Response values": true
+				}
+			]
+		},
+		{
+			"id": "b9ad8548-7fec-4c37-bc4f-9b72de9bfc7e",
+			"name": "Create 8th kit",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits?cardId=1",
+			"time": 60,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response structure": true,
+				"Response values": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response values": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				60
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response structure": true,
+					"Response values": true
+				}
+			]
+		},
+		{
+			"id": "581a69a1-aae7-445d-b020-8572ba74c1f3",
+			"name": "Create 9th kit",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits?cardId=1",
+			"time": 75,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response structure": true,
+				"Response values": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response values": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				75
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response structure": true,
+					"Response values": true
+				}
+			]
+		},
+		{
+			"id": "38f90900-fa57-4044-993b-845c322e8fc5",
+			"name": "1.1 + 1.13 Successful scenario - 1 product",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/7/products",
+			"time": 101,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response structure": true,
+				"Response values": true,
+				"Checking product was added to the database": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response values": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Checking product was added to the database": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				101
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response structure": true,
+					"Response values": true,
+					"Checking product was added to the database": true
+				}
+			]
+		},
+		{
+			"id": "3889549e-6727-4a42-9c07-fb410c75c741",
+			"name": "1.1 + 1.14 Successful scenario - 2 products",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/7/products",
+			"time": 97,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response structure": true,
+				"Response values": true,
+				"Checking product was added to the database": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response values": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Checking product was added to the database": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				97
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response structure": true,
+					"Response values": true,
+					"Checking product was added to the database": true
+				}
+			]
+		},
+		{
+			"id": "7c1d2456-2da1-4038-8be9-d9e03fd73045",
+			"name": "1.1 Successful scenario - 15 products",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/7/products",
+			"time": 56,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"productCount summs all product quantities. ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"productCount summs all product quantities. ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				56
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"productCount summs all product quantities. ": true
+				}
+			]
+		},
+		{
+			"id": "f685cdb2-93b0-4a9d-94d1-6c0230f91258",
+			"name": "1.1 Successful scenario - 29 products",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/8/products",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"productCount summs all product quantities. ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"productCount summs all product quantities. ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				66
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"productCount summs all product quantities. ": true
+				}
+			]
+		},
+		{
+			"id": "f3402aa8-0e08-4fa3-9394-d98693644f05",
+			"name": "1.1 Successful scenario - 30 products",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/9/products",
+			"time": 87,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"productCount summs all product quantities. ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"productCount summs all product quantities. ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				87
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"productCount summs all product quantities. ": true
+				}
+			]
+		},
+		{
+			"id": "623210aa-2fb6-47c9-b14b-f9d48dfd32a4",
+			"name": "1.2 empty product list",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/7/products",
+			"time": 55,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 400": false
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				55
+			],
+			"allTests": [
+				{
+					"Status code is 400": false
+				}
+			]
+		},
+		{
+			"id": "27027a10-b292-4e7a-a9a2-1b4985f18e1a",
+			"name": "1.3 31 products",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/9/products",
+			"time": 82,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				82
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "2c0c8f20-f05e-419e-928e-3668238a94e7",
+			"name": "1.4 repeating products",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/7/products",
+			"time": 55,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 400": false
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				55
+			],
+			"allTests": [
+				{
+					"Status code is 400": false
+				}
+			]
+		},
+		{
+			"id": "348b344e-4ee1-4924-a8c6-f6f0a42bb841",
+			"name": "1.7 non-existent valid id",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/89/products?id",
+			"time": 52,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Check response structure": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response structure": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				52
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Check response structure": true
+				}
+			]
+		},
+		{
+			"id": "22acf591-4606-4e08-b556-5f2cba489aa2",
+			"name": "1.8 empty id",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits//products?id",
+			"time": 83,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Check response structure": false
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response structure": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				83
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Check response structure": false
+				}
+			]
+		},
+		{
+			"id": "7046d307-a09e-4ff1-9732-ec172a6b190d",
+			"name": "1.9 negative",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/-93/products",
+			"time": 62,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Check response structure": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response structure": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				62
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Check response structure": true
+				}
+			]
+		},
+		{
+			"id": "b7618019-846e-4110-9664-eb9c0d5028a9",
+			"name": "1.10 letters only",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/PQRST/products",
+			"time": 119,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 404": false,
+				"Check response structure": false
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check response structure": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				119
+			],
+			"allTests": [
+				{
+					"Status code is 404": false,
+					"Check response structure": false
+				}
+			]
+		},
+		{
+			"id": "13fbf211-f4fe-4cbc-9749-766b51bd05c1",
+			"name": "1.11 special characters only",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/@#$%^/products",
+			"time": 222,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Status code is 404": false,
+				"Check response structure": false
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check response structure": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				222
+			],
+			"allTests": [
+				{
+					"Status code is 404": false,
+					"Check response structure": false
+				}
+			]
+		},
+		{
+			"id": "40ab10fc-f3be-49ba-bd8f-8779127e2ecf",
+			"name": "1.12 id string",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/\"5\"/products?id",
+			"time": 58,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 404": false,
+				"Check response structure": false
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check response structure": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				58
+			],
+			"allTests": [
+				{
+					"Status code is 404": false,
+					"Check response structure": false
+				}
+			]
+		},
+		{
+			"id": "428d7115-e0e7-457c-a9a5-eb7f0eb5b4d8",
+			"name": "1.15 empty id",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/7/products",
+			"time": 87,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 400": false,
+				"Check response structure": false
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check response structure": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				87
+			],
+			"allTests": [
+				{
+					"Status code is 400": false,
+					"Check response structure": false
+				}
+			]
+		},
+		{
+			"id": "168d48b3-9bfb-401e-96c9-31afc1b2618c",
+			"name": "1.16 non-existent valid id",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/7/products",
+			"time": 56,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 404": false,
+				"Check response structure": false
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check response structure": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				56
+			],
+			"allTests": [
+				{
+					"Status code is 404": false,
+					"Check response structure": false
+				}
+			]
+		},
+		{
+			"id": "1aa77099-0208-4121-8447-ae36de567ccc",
+			"name": "1.17 string with letters and sp characters",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/7/products",
+			"time": 69,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 400": false,
+				"Check response structure": false
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check response structure": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				69
+			],
+			"allTests": [
+				{
+					"Status code is 400": false,
+					"Check response structure": false
+				}
+			]
+		},
+		{
+			"id": "37f839c7-9eae-4c1e-9505-fca206acad58",
+			"name": "1.19 deleted id from json",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/7/products",
+			"time": 84,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 400": false,
+				"Check response structure": false
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check response structure": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				84
+			],
+			"allTests": [
+				{
+					"Status code is 400": false,
+					"Check response structure": false
+				}
+			]
+		},
+		{
+			"id": "fbeacb23-bee1-42b5-bc99-6306959ba0df",
+			"name": "1.19 empty qnty",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/7/products",
+			"time": 50,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Check response structure": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response structure": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				50
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Check response structure": true
+				}
+			]
+		},
+		{
+			"id": "0717f0aa-f261-4fe2-b8ce-a82614ba54fa",
+			"name": "1.20 string with letters and sp characters",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/7/products",
+			"time": 333,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 400": false,
+				"Check response structure": false
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check response structure": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				333
+			],
+			"allTests": [
+				{
+					"Status code is 400": false,
+					"Check response structure": false
+				}
+			]
+		},
+		{
+			"id": "94703518-1a9c-4c3e-8bba-cf57f4031e3c",
+			"name": "1.21 negative",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/7/products",
+			"time": 150,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 400": false,
+				"Check response structure": false
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check response structure": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				150
+			],
+			"allTests": [
+				{
+					"Status code is 400": false,
+					"Check response structure": false
+				}
+			]
+		},
+		{
+			"id": "d6ace2ee-4f03-414b-a7a2-3083e5f70ce3",
+			"name": "1.22 deleted qnty from json",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/7/products",
+			"time": 71,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 400": false,
+				"Check response structure": false
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check response structure": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				71
+			],
+			"allTests": [
+				{
+					"Status code is 400": false,
+					"Check response structure": false
+				}
+			]
+		},
+		{
+			"id": "4b528c9e-9d16-451d-a2b9-d483b69c8f1a",
+			"name": "1.23 string format",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/7/products",
+			"time": 82,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 400": false,
+				"Check response structure": false
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check response structure": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				82
+			],
+			"allTests": [
+				{
+					"Status code is 400": false,
+					"Check response structure": false
+				}
+			]
+		},
+		{
+			"id": "80b3c0d2-3650-4585-8b8a-f65994a1b356",
+			"name": "1.24 valid qnty <= 30",
+			"url": "https://4ea5b4c1-0388-4589-b356-54d22b43d1d6.serverhub.praktikum-services.ru/api/v1/kits/7/products",
+			"time": 82,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Adding product with quantity 1": true,
+				"Adding product with quantity 2": true,
+				"Adding product with quantity 15": true,
+				"Adding product with quantity 29": true,
+				"Adding product with quantity 30": true
+			},
+			"testPassFailCounts": {
+				"Adding product with quantity 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Adding product with quantity 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Adding product with quantity 15": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Adding product with quantity 29": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Adding product with quantity 30": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				82
+			],
+			"allTests": [
+				{
+					"Adding product with quantity 1": true,
+					"Adding product with quantity 2": true,
+					"Adding product with quantity 15": true,
+					"Adding product with quantity 29": true,
+					"Adding product with quantity 30": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2593,
+	"collection": {
+		"requests": [
+			{
+				"id": "d9ec69bc-ca04-4899-856e-ffcbb76346ab",
+				"method": "POST"
+			},
+			{
+				"id": "b9ad8548-7fec-4c37-bc4f-9b72de9bfc7e",
+				"method": "POST"
+			},
+			{
+				"id": "581a69a1-aae7-445d-b020-8572ba74c1f3",
+				"method": "POST"
+			},
+			{
+				"id": "38f90900-fa57-4044-993b-845c322e8fc5",
+				"method": "POST"
+			},
+			{
+				"id": "3889549e-6727-4a42-9c07-fb410c75c741",
+				"method": "POST"
+			},
+			{
+				"id": "7c1d2456-2da1-4038-8be9-d9e03fd73045",
+				"method": "POST"
+			},
+			{
+				"id": "f685cdb2-93b0-4a9d-94d1-6c0230f91258",
+				"method": "POST"
+			},
+			{
+				"id": "f3402aa8-0e08-4fa3-9394-d98693644f05",
+				"method": "POST"
+			},
+			{
+				"id": "623210aa-2fb6-47c9-b14b-f9d48dfd32a4",
+				"method": "POST"
+			},
+			{
+				"id": "27027a10-b292-4e7a-a9a2-1b4985f18e1a",
+				"method": "POST"
+			},
+			{
+				"id": "2c0c8f20-f05e-419e-928e-3668238a94e7",
+				"method": "POST"
+			},
+			{
+				"id": "348b344e-4ee1-4924-a8c6-f6f0a42bb841",
+				"method": "POST"
+			},
+			{
+				"id": "22acf591-4606-4e08-b556-5f2cba489aa2",
+				"method": "POST"
+			},
+			{
+				"id": "7046d307-a09e-4ff1-9732-ec172a6b190d",
+				"method": "POST"
+			},
+			{
+				"id": "b7618019-846e-4110-9664-eb9c0d5028a9",
+				"method": "POST"
+			},
+			{
+				"id": "13fbf211-f4fe-4cbc-9749-766b51bd05c1",
+				"method": "POST"
+			},
+			{
+				"id": "40ab10fc-f3be-49ba-bd8f-8779127e2ecf",
+				"method": "POST"
+			},
+			{
+				"id": "428d7115-e0e7-457c-a9a5-eb7f0eb5b4d8",
+				"method": "POST"
+			},
+			{
+				"id": "168d48b3-9bfb-401e-96c9-31afc1b2618c",
+				"method": "POST"
+			},
+			{
+				"id": "1aa77099-0208-4121-8447-ae36de567ccc",
+				"method": "POST"
+			},
+			{
+				"id": "37f839c7-9eae-4c1e-9505-fca206acad58",
+				"method": "POST"
+			},
+			{
+				"id": "fbeacb23-bee1-42b5-bc99-6306959ba0df",
+				"method": "POST"
+			},
+			{
+				"id": "0717f0aa-f261-4fe2-b8ce-a82614ba54fa",
+				"method": "POST"
+			},
+			{
+				"id": "94703518-1a9c-4c3e-8bba-cf57f4031e3c",
+				"method": "POST"
+			},
+			{
+				"id": "d6ace2ee-4f03-414b-a7a2-3083e5f70ce3",
+				"method": "POST"
+			},
+			{
+				"id": "4b528c9e-9d16-451d-a2b9-d483b69c8f1a",
+				"method": "POST"
+			},
+			{
+				"id": "80b3c0d2-3650-4585-8b8a-f65994a1b356",
+				"method": "POST"
+			}
+		]
+	}
+}
